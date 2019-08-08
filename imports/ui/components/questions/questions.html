@@ -28,6 +28,10 @@
 
     <div id="noMoreQs" style="text-align: center">
             {{#if isRemainingTotalQCountGreaterThan 0}}
+                {{#if isRemainingGreaterThan 0}}
+                {{else}}
+                    <h2>You Have Answered the Minimum Number of Questions</h2>
+                {{/if}}
             {{else}}
             <h2>You Have Answered All the Questions</h2>
             {{/if}}
