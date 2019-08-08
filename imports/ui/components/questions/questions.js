@@ -53,6 +53,14 @@ Template.questions.helpers({
         });
 		return total;
 	},
+    isRemainingTotalQCountGreaterThan(num) {
+        let userId = {_id:Template.instance().userId};
+        let u = User.findOne(userId);
+        if (!u) return true;
+        let rmn = Math.max(0, (u.MyProfile.UserType.AnsweredQuestions.length - u.MyProfile.UserType.AnsweredQuestions.length));
+        return rmn > num;
+    },
+
     isRemainingGreaterThan(num) {
     let userId = {_id:Template.instance().userId};
     let u = User.findOne(userId);
