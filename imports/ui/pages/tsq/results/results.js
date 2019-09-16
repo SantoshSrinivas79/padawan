@@ -27,7 +27,6 @@ async function getAllSkillsFromDB(list) {
 
 Template.tsq_results.onCreated(function(){
     this.autorun(async () => {
-        console.log("We are not using key param");
         let cur = this;
         cur.subscription1 = await cur.subscribe('tsqUserList', cur.userId, {
             onStop: function() {
@@ -40,7 +39,6 @@ Template.tsq_results.onCreated(function(){
                     console.log("We are using key param");
                     userId = FlowRouter.getParam('key');
                 } else {
-                    console.log("We are not using key param");
                     userId = Meteor.userId();
                 }
                 user = User.findOne({ _id: userId });
@@ -63,7 +61,7 @@ Template.tsq_results.onCreated(function(){
                     }
                 }
                 });
-        
+
                 cur.keyDataSub = cur.subscribe('tsq.keyData', User.findOne({_id: userId}).MyProfile.technicalSkillsData, {
                 onReady: () => (Meteor.isDevelopment) ? console.log({ subName: 'tsq.keyData', readyStatus: true, arguments, THIS: cur}) : null,
                 onError: () => (Meteor.isDevelopment) ? console.log({ subName: 'tsq.keyData', readyStatus: false, arguments, THIS: cur}) : null,

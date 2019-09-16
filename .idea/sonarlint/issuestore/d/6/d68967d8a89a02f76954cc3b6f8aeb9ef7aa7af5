@@ -1,0 +1,12 @@
+
+cjavascript:UnusedVariablev"9Remove the declaration of the unused 'findUser' variable.(ÒŠ»¾üÿÿÿÿ
+Fjavascript:S1128"*Remove this unused import of 'UserNotify'.(›¯Ýÿ
+Cjavascript:S1128"(Remove this unused import of 'Defaults'.(™ÓŸ
+@javascript:S1128"$Remove this unused import of 'Team'.(ÆÉÀ›
+gjavascript:UnusedVariablex"=Remove the declaration of the unused 'findQuestion' variable.(Êûµƒþÿÿÿÿ
+Ejavascript:S1128"*Remove this unused import of 'PolarStats'.(ôÞÁJ
+`javascript:S1854x"?Remove this useless assignment to local variable "findQuestion"(Êûµƒþÿÿÿÿ
+Ijavascript:S1128	"(Remove this unused import of 'UserType'.(•Ãø¯øÿÿÿÿ
+Cjavascript:S1128
+"'Remove this unused import of 'Profile'.(¦¯¿ÿ
+\javascript:S1854v";Remove this useless assignment to local variable "findUser"(ÒŠ»¾üÿÿÿÿ

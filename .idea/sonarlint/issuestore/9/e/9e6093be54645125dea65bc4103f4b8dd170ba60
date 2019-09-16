@@ -1,0 +1,13 @@
+
+Fjavascript:S1128"%Remove this unused import of 'Union'.(ØùÊİÿÿÿÿÿ
+Qjavascript:S1854ı"4Remove this useless assignment to local variable "u"(»øïä
+{javascript:S2703¬"_Add the "let", "const" or "var" keyword to this declaration of "qnAnIndex" to make it explicit.(Ş·²
+yjavascript:S2703ù"\Add the "let", "const" or "var" keyword to this declaration of "thisQn" to make it explicit.(¯¿¼
+Ejavascript:S1128"$Remove this unused import of 'Enum'.(ØùÊİÿÿÿÿÿ
+Xjavascript:UnusedVariableı"2Remove the declaration of the unused 'u' variable.(»øïä
+^javascript:UnusedVariableù"3Remove the declaration of the unused 'f2' variable.(„èÑèûÿÿÿÿ
+Ljavascript:S1128"+Remove this unused import of 'UserSegment'.(‚ª¦¶úÿÿÿÿ
+Ijavascript:S1128"(Remove this unused import of 'Defaults'.(ßÖé–øÿÿÿÿ
+Wjavascript:S1854ù"5Remove this useless assignment to local variable "f2"(„èÑèûÿÿÿÿ
+Xjavascript:UnusedVariable÷"2Remove the declaration of the unused 'u' variable.(»øïä
+Qjavascript:S1854÷"4Remove this useless assignment to local variable "u"(»øïä

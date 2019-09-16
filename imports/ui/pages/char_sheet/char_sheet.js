@@ -51,8 +51,9 @@ Template.char_sheet.onCreated(function () {
                 console.log("Segment List subscription ready! ", arguments, this);
             }
         });
-        console.log(this.subscription3);
+        console.log('this.subscription3::::     ' + this.subscription3);
     });
+    console.log('this.userId)::    ' + this.userId);
 });
 
 

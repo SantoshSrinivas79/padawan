@@ -27,7 +27,7 @@ async function getAllSkillsFromDB(list) {
 
 Template.tsq_widget.onCreated(function(){
     this.autorun(async () => {
-        console.log("We are not using key param");
+        console.log("tsq_widget.onCreated 1     We are not using key param");
         let cur = this;
         cur.subscription1 = await cur.subscribe('tsqUserList', cur.userId, {
             onStop: function() {
@@ -40,7 +40,7 @@ Template.tsq_widget.onCreated(function(){
                     console.log("We are using key param");
                     userId = FlowRouter.getParam('key');
                 } else {
-                    console.log("We are not using key param");
+                    console.log("tsq_widget.onCreated 2     We are not using key param");
                     userId = Meteor.userId();
                 }
                 user = User.findOne({ _id: userId });
