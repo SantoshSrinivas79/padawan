@@ -5,7 +5,7 @@ const SrvDefaults = {
     'user': {
         'password': 'admin'
     },
-    'uploadPath': '/uploads/'
+    'uploadPath': 'uploads/'
 }
 
 Meteor.methods({
